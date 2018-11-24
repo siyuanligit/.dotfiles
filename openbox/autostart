@@ -1,3 +1,2 @@
-tint2 -c ~/.config/tint2/tint2rc &
-tint2 -c ~/.config/tint2/leftPane &
+tint2 &
 nitrogen --restore &
