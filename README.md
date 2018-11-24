@@ -1,4 +1,4 @@
-## Dotfiles for Manjaro Openbox Project
+## Dotfiles for Arch Openbox Project
 
 ### Modules
 
