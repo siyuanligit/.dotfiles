@@ -97,7 +97,7 @@ background_color_pressed = #000000 80
 border_color_pressed = #000000 80
 
 # Background 8: Battery, Clock, Panel, Systray
-rounded = 4
+rounded = 32
 border_width = 0
 border_sides = 
 border_content_tint_weight = 0
@@ -111,7 +111,7 @@ border_color_pressed = #151515 100
 
 #-------------------------------------
 # Panel
-panel_items = SBC
+panel_items = BC
 panel_size = 99% 48
 panel_margin = 8 8
 panel_padding = 0 0 0
@@ -209,7 +209,7 @@ time1_timezone =
 time2_timezone = 
 time2_font =
 clock_font_color = #ffffff 100
-clock_padding = 15 5
+clock_padding = 15 5 5 0
 clock_background_id = 8
 clock_tooltip = Today is %A, %dth Day Of %B
 clock_tooltip_timezone = 
@@ -230,7 +230,7 @@ bat2_font = Roboto 0
 battery_font_color = #ffffff 100
 bat1_format = 
 bat2_format = 
-battery_padding = 5 5
+battery_padding = 15 5 5 0
 battery_background_id = 8
 battery_hide = 101
 battery_lclick_command = xfce4-power-manager-settings
