@@ -3,5 +3,5 @@
 ### Modules
 
 - Openbox
-- Polybar
+- tint2
 - rofi
