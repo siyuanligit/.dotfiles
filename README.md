@@ -5,3 +5,5 @@
 - Openbox
 - tint2
 - rofi
+- xfce4-terminal
+- pcmanfm
