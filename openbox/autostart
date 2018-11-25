@@ -1,2 +1,3 @@
+compton -bcC &
 tint2 &
 nitrogen --restore &
