@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Onyx</name>
+    <name>Adwaita Custom Dark</name>
     <titleLayout>LIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -336,19 +336,19 @@
     <keybind key="W-Right">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <x>-0</x>
-        <y>0</y>
-        <width>50%</width>
-        <height>100%</height>
+        <x>-1%</x>
+        <y>1%</y>
+        <width>48%</width>
+        <height>98%</height>
       </action>
     </keybind>
     <keybind key="W-Left">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <x>0</x>
-        <y>0</y>
-        <width>50%</width>
-        <height>100%</height>
+        <x>1%</x>
+        <y>1%</y>
+        <width>48%</width>
+        <height>98%</height>
       </action>
     </keybind>
     <keybind key="W-Up">
@@ -366,37 +366,37 @@
     <keybind key="W-a">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <x>0</x>
-        <y>0</y>
-        <width>50%</width>
-        <height>50%</height>
+        <x>1%</x>
+        <y>1%</y>
+        <width>49%</width>
+        <height>49%</height>
       </action>
     </keybind>
     <keybind key="W-s">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <x>-0</x>
-        <y>0</y>
-        <width>50%</width>
-        <height>50%</height>
+        <x>-1%</x>
+        <y>1%</y>
+        <width>48%</width>
+        <height>49%</height>
       </action>
     </keybind>
     <keybind key="W-z">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <x>0</x>
-        <y>-0</y>
-        <width>50%</width>
-        <height>50%</height>
+        <x>1%</x>
+        <y>-1%</y>
+        <width>49%</width>
+        <height>49%</height>
       </action>
     </keybind>
     <keybind key="W-x">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <x>-0</x>
-        <y>-0</y>
-        <width>50%</width>
-        <height>50%</height>
+        <x>-1%</x>
+        <y>-1%</y>
+        <width>48%</width>
+        <height>49%</height>
       </action>
     </keybind>
   </keyboard>

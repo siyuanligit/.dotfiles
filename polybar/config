@@ -1,0 +1,57 @@
+[bar/top]
+width = 100%
+height = 24
+
+background = #99151515
+
+spacing = 1
+padding-right = 2
+module-margin-left = 0
+module-margin-right = 2
+
+font-0 = Monaco:size=9;2
+
+modules-right = cpu memory network alsa battery clock
+
+[module/cpu]
+type = internal/cpu
+interval = 1
+format = <label>
+label = CPU: %percentage%%
+
+[module/memory]
+type = internal/memory
+interval = 5
+format = <label>
+label = - Memory: %percentage_used%%
+
+[module/network]
+type = internal/network
+interface = enp0s3
+format-connected = <label-connected>
+format-disconnected = <label-disconnected>
+
+label-connected = - Online - Up: %upspeed% Down: %downspeed%
+label-disconnected = - Not Connected
+
+[module/alsa]
+type = internal/alsa
+format-volume = <label-volume>
+format-muted = <label-muted>
+label-volume = - Volume: %percentage%%
+label-muted = - Muted
+
+[module/battery]
+type = internal/battery
+full-at = 98%
+
+format-charging = <label-charging>
+format-discharging = <label-discharging>
+
+label-charging = - Charging: %percentage%%
+label-discharging = - Battery: %percentage%%
+
+[module/clock]
+type = internal/date
+date = - %I:%M %p
+format-date-font = 1
