@@ -43,7 +43,7 @@
   </placement>
   <theme>
     <name>Adwaita Custom Dark</name>
-    <titleLayout>LIMC</titleLayout>
+    <titleLayout>LC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -352,7 +352,13 @@
       </action>
     </keybind>
     <keybind key="W-Up">
-      <action name="Maximize"/>
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>1%</x>
+        <y>1%</y>
+        <width>98%</width>
+        <height>98%</height>
+      </action>
     </keybind>
     <keybind key="W-Down">
       <action name="Unmaximize"/>
