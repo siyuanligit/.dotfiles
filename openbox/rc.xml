@@ -346,6 +346,18 @@
         <height>100%</height>
       </action>
     </keybind>
+    <keybind key="W-Up">
+      <action name="Maximize"/>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>center</y>
+        <width>75%</width>
+        <height>75%</height>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
