@@ -4,6 +4,7 @@
 
 - Openbox
 - tint2
+- polybar
 - rofi
 - xfce4-terminal
 - pcmanfm
